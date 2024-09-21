@@ -1,0 +1,14 @@
+name: mernstack
+
+on: push
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: welcome
+              run : echo "hello man i love you keep pushing "
+            - name: list
+              run : ls
+            - name: Read file
+              run : cat README.md
