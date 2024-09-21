@@ -6,6 +6,9 @@ jobs:
     first_job:
         runs-on: ubuntu-latest
         steps:
+            - name: checkout
+              uses: actions/checkout/@v4
+
             - name: welcome
               run : echo "hello man i love you keep pushing "
             - name: list
