@@ -16,4 +16,4 @@ jobs:
             - name: Read file
               run : cat README.md
             - name: ascii artwork
-              run: cosway -f dragon "ohreb a taaaaher" >> taher.txt
+              run: cowsay -f dragon "ohreb a taaaaher" >> taher.txt
