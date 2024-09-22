@@ -12,9 +12,9 @@ jobs:
             - name: install cowsay
               run: sudo apt-get install cowsay -y 
             - name: execute cowsay
-              run: cowsay -f dragon "ohreb a tahe" >> taher.txt
+              run: cowsay -f taher "ohreb a tahe" >> taher.txt
             - name: test
-              run: grep -i "dragon" taher.txt
+              run: grep -i "taher" taher.txt
             - name: read
               run: cat taher.txt
 
